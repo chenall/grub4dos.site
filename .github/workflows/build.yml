@@ -13,7 +13,10 @@ jobs:
      name: PAGES
     steps:
     - name: 安装依赖项并进行环境变量配置
-      run: sudo apt -y install p7zip-full
+      run: |
+        sudo apt -y install p7zip-full
+        git config --global user.email "chenall.cn@gmail.com"
+        git config --global user.name "chenall"
     - name: 配置 node 环境
       uses: actions/setup-node@v2
       with:
@@ -41,7 +44,7 @@ jobs:
         ../../upx --auth $UPX_KEY sync .
         git init
         git remote add origin git@github.com:${GITHUB_REPOSITORY}.git
-        git add .
-        git commit m "updated"
         git checkout -b pages
+        git add .
+        git commit -m "updated"
         git push --set-upstream origin pages -f

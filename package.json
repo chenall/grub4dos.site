@@ -1,0 +1,12 @@
+{
+  "name": "hexo-site",
+  "version": "2.8.3",
+  "private": true,
+  "dependencies": {
+    "hexo-renderer-ejs": "*",
+    "hexo-renderer-stylus": "*",
+    "hexo-renderer-marked": "*",
+    "hexo-generator-feed":"*",
+    "hexo-generator-sitemap":"*"
+  }
+}

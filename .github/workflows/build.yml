@@ -1,0 +1,47 @@
+name: grub4dos-build
+
+on: 
+ push:
+   branches: [ "main","master","source" ]
+ pull_request:
+   types: [ opened , synchronize ]
+
+jobs:
+  build:
+    runs-on: ubuntu-16.04
+    environment: 
+     name: PAGES
+    steps:
+    - name: 安装依赖项并进行环境变量配置
+      run: sudo apt -y install p7zip-full
+    - name: 配置 node 环境
+      uses: actions/setup-node@v2
+      with:
+        node-version: "8"
+    - name: 下载站点生成工具
+      uses: actions/checkout@v2
+      with:
+        ref: build
+    - name: 下载源码
+      uses: actions/checkout@v2
+      with:
+        path: src
+    - name: 调用hexo生成网站
+      run: |
+        npm i -g hexo@2.8.3
+        npm i
+        7z x -y node_modules.7z
+        hexo clean --config src/_config.yml
+        hexo generate --config src/_config.yml
+    - name: 更新site.page
+      env:
+        UPX_KEY: ${{ secrets.UPX_KEY }}
+      run: |
+        cd src/public || exit $?
+        ../../upx --auth $UPX_KEY sync .
+        git init
+        git remote add origin git@github.com:${GITHUB_REPOSITORY}.git
+        git add .
+        git commit m "updated"
+        git checkout -b pages
+        git push --set-upstream origin pages -f

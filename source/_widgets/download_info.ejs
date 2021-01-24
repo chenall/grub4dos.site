@@ -1,0 +1,9 @@
+<%if (!item && item.downlink) return;%>
+<div class="panel panel-success">
+    <div class="panel-heading" align="center">请核对下载文件信息若发现错误,请留言,谢谢</div>
+    <table class="table table-striped" style="table-layout:fixed">
+    <tr><td>File:</td><td><a href="<%-item.downlink%>"><%=item.title%></a> <%- item.size%></td></tr>
+    <tr><td>MD5 Checksum:</td><td><%- item.md5%></td></tr>
+    <tr><td>Uploaded:</td><td><%- item.date%></td></tr>
+    </table>
+</div>

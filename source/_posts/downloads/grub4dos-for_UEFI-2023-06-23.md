@@ -1,11 +1,11 @@
 title: grub4dos-for_UEFI-2023-06-23.7z
 size: 1.2M
-date: 2023-06-23 08:57:16.039715168 +0000
+date: 2023-06-23 09:06:59.635084999 +0000
 commit: c539d762
 downlink: http://dl.grub4dos.chenall.net/grub4dos-for_UEFI-2023-06-23.7z
 categories: for_UEFI
 tags: for_UEFI
-md5: 1fa5b2ad28579025b1b99ffc0db711d8
+md5: c9f83130752bc0634aac963be5abc2b6
 files:
   BOOTIA32.EFI: 016d3a787cb8b5fac168c2718f91e306
   BOOTX64.EFI: cbed0e628828d46c730a6e0f8ea63b8c

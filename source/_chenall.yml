@@ -19,41 +19,41 @@ loaded_modules:
 #
 modules:
   respond: ## A fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more).
-    js: http://cdn.staticfile.org/respond.js/1.4.2/respond.min.js
-    proxy: http://cdn.staticfile.org/respond.js/1.4.2/respond-proxy.html
+    js: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/respond.js/1.4.2/respond.min.js
+    proxy: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/respond.js/1.4.2/respond-proxy.html
   jquery:
-    js: http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js
+    js: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/1.10.2/jquery.min.js
   bootstrap: #强大的CSS框架，由Twitter的开发工程师推出
-    css: http://cdn.staticfile.org/twitter-bootstrap/3.1.0/css/bootstrap.min.css
-    js: http://cdn.staticfile.org/twitter-bootstrap/3.1.0/js/bootstrap.min.js
+    css: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/twitter-bootstrap/3.1.0/css/bootstrap.min.css
+    js: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/twitter-bootstrap/3.1.0/js/bootstrap.min.js
   prettify: # Google Code Prettify 代码的高亮显示
-    css: http://cdn.bootcss.com/prettify/r298/prettify.min.css
-    js: http://cdn.bootcss.com/prettify/r298/prettify.min.js
+    css: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/prettify/r298/prettify.min.css
+    js: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/prettify/r298/prettify.min.js
   highlightjs: # highlight.js 代码高亮显示插件
-    css: http://cdn.bootcss.com/highlight.js/7.4/styles/github.min.css
-    js:  http://cdn.bootcss.com/highlight.js/7.4/highlight.min.js
+    css: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/highlight.js/7.4/styles/github.min.css
+    js:  http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/highlight.js/7.4/highlight.min.js
   fancybox: # 一款基于jQuery开发的类Lightbox插件
-    css: http://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css
-    js:  http://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js
+    css: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/2.1.5/jquery.fancybox.min.css
+    js:  http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/2.1.5/jquery.fancybox.min.js
   imagesloaded: #监测图片是否加载完毕的JavaScript库
     #js: js/jquery.imagesloaded.min.js
-     js: http://cdn.bootcss.com/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js
+     js: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js
   Gallery:
-    css: http://cdn.bootcss.com/blueimp-gallery/2.11.2/css/blueimp-gallery.min.css
-    js: http://cdn.bootcss.com/blueimp-gallery/2.11.2/js/jquery.blueimp-gallery.min.js
+    css: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/blueimp-gallery/2.11.2/css/blueimp-gallery.min.css
+    js: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/blueimp-gallery/2.11.2/js/jquery.blueimp-gallery.min.js
   fontawesome:
-    css: http://cdn.bootcss.com/font-awesome/4.0.3/css/font-awesome.min.css
+    css: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/4.0.3/css/font-awesome.min.css
   # MathJax is an open source JavaScript display engine for mathematics that works in all browsers.
   mathjax: # 生成数学公式插件
     css:
-    js: http://cdn.bootcss.com/mathjax/2.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    js: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/mathjax/2.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     #js: http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-  uyan: #有言评论系统
-    uid: 1880458
-  ujian: #友荐：为网站添加'猜你喜欢'功能
-    uid: 1880458
-  swiftype: #Swiftype配置，详情访问https://swiftype.com
-    key: P473Cjp95e3bFhiCP88w
+  #uyan: #有言评论系统
+  #  uid: 1880458
+  #ujian: #友荐：为网站添加'猜你喜欢'功能
+  #  uid: 1880458
+  #swiftype: #Swiftype配置，详情访问https://swiftype.com
+  #  key: P473Cjp95e3bFhiCP88w
 
 ##评论功能设置,目前支持disqus和duoshuo/uyan,需要在上面的modules中进行要应的设置
 # show_count 是否显示文章的评论数量
@@ -71,15 +71,15 @@ comments:
 analytics:
   # provider 要加载的统计代码类型,可同时加载多少,使用","分隔. 如下就加载了51la和google的统计代码
   # provider: 51la,google 
-  provider: 51la
+  provider: google
   # google-analytics UA
   google: UA-30310093-1
   # 我要啦」免费统计 ID
-  51la: 124719
+  #51la: 124719
   # cnzz 免费统计
-  cnzz:
-    siteid: 5774006  #站点ID,在获取统计代码的页面的地址栏上可以看到siteid=xxxx或从代码中提取(一般是一串数字)
-    show: #显示样式  留空: 图片形式1; 1: 图片形式2; 2: 图片形式1; 其它值: 文字形式
+  #cnzz:
+  #  siteid: 5774006  #站点ID,在获取统计代码的页面的地址栏上可以看到siteid=xxxx或从代码中提取(一般是一串数字)
+  #  show: #显示样式  留空: 图片形式1; 1: 图片形式2; 2: 图片形式1; 其它值: 文字形式
   baidu:
     siteid: 41a3a9225fc0df0d53086baea0f90d96
 

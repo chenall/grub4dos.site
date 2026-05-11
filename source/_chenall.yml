@@ -19,34 +19,34 @@ loaded_modules:
 #
 modules:
   respond: ## A fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more).
-    js: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/respond.js/1.4.2/respond.min.js
-    proxy: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/respond.js/1.4.2/respond-proxy.html
+    js: http://cdn.staticfile.net/respond.js/1.4.2/respond.min.js
+    proxy: http://cdn.staticfile.net/respond.js/1.4.2/respond-proxy.html
   jquery:
-    js: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/1.10.2/jquery.min.js
+    js: http://cdn.staticfile.net/jquery/1.10.2/jquery.min.js
   bootstrap: #强大的CSS框架，由Twitter的开发工程师推出
-    css: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/twitter-bootstrap/3.1.0/css/bootstrap.min.css
-    js: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/twitter-bootstrap/3.1.0/js/bootstrap.min.js
+    css: http://cdn.staticfile.net/twitter-bootstrap/3.1.0/css/bootstrap.min.css
+    js: http://cdn.staticfile.net/twitter-bootstrap/3.1.0/js/bootstrap.min.js
   prettify: # Google Code Prettify 代码的高亮显示
-    css: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/prettify/r298/prettify.min.css
-    js: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/prettify/r298/prettify.min.js
+    css: http://cdn.staticfile.net/prettify/r298/prettify.min.css
+    js: http://cdn.staticfile.net/prettify/r298/prettify.min.js
   highlightjs: # highlight.js 代码高亮显示插件
-    css: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/highlight.js/7.4/styles/github.min.css
-    js:  http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/highlight.js/7.4/highlight.min.js
+    css: http://cdn.staticfile.net/highlight.js/7.4/styles/github.min.css
+    js:  http://cdn.staticfile.net/highlight.js/7.4/highlight.min.js
   fancybox: # 一款基于jQuery开发的类Lightbox插件
-    css: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/2.1.5/jquery.fancybox.min.css
-    js:  http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/2.1.5/jquery.fancybox.min.js
+    css: http://cdn.staticfile.net/fancybox/2.1.5/jquery.fancybox.min.css
+    js:  http://cdn.staticfile.net/fancybox/2.1.5/jquery.fancybox.min.js
   imagesloaded: #监测图片是否加载完毕的JavaScript库
     #js: js/jquery.imagesloaded.min.js
-     js: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js
+     js: http://cdn.staticfile.net/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js
   Gallery:
-    css: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/blueimp-gallery/2.11.2/css/blueimp-gallery.min.css
-    js: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/blueimp-gallery/2.11.2/js/jquery.blueimp-gallery.min.js
+    css: http://cdn.staticfile.net/blueimp-gallery/2.11.2/css/blueimp-gallery.min.css
+    js: http://cdn.staticfile.net/blueimp-gallery/2.11.2/js/jquery.blueimp-gallery.min.js
   fontawesome:
-    css: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/4.0.3/css/font-awesome.min.css
+    css: http://cdn.staticfile.net/font-awesome/4.0.3/css/font-awesome.min.css
   # MathJax is an open source JavaScript display engine for mathematics that works in all browsers.
   mathjax: # 生成数学公式插件
     css:
-    js: http://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/mathjax/2.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    js: http://cdn.staticfile.net/mathjax/2.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     #js: http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
   #uyan: #有言评论系统
   #  uid: 1880458
